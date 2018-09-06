@@ -1,2 +1,2 @@
 # tomellericcardo
-[Visita](www.tomellericcardo.it)
+[Visita](http://www.tomellericcardo.it)
