@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+    <head>
+
+        <title>tomellericcardo</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- FONTS & ICONS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <!-- STYLES -->
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/home.css">
+
+    </head>
+    <body>
+
+        <!-- HEADER -->
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+            <div class="mdc-top-app-bar__row">
+
+                <!-- TITLE -->
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                    <i class="material-icons mdc-top-app-bar__navigation-icon">developer_mode</i>
+                    <span class="mdc-top-app-bar__title">tomellericcardo</span>
+                </section>
+
+                <!-- TOOLBAR -->
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                    <span class="mdc-menu-surface--anchor">
+
+                        <i id="menu-icon" class="material-icons mdc-top-app-bar__action-item">more_vert</i>
+
+                        <!-- MENU -->
+                        <div class="mdc-menu mdc-menu-surface" tabindex="-1">
+                            <ul class="mdc-menu__items mdc-list" role="menu" aria-hidden="true">
+                                <li id="about" class="mdc-list-item" role="menuitem" tabindex="0">
+                                  About
+                                </li>
+                            </ul>
+                        </div>
+
+                    </span>
+                </section>
+
+            </div>
+        </header>
+
+        <!-- PROJECTS -->
+        <div class="mdc-list mdc-list--two-line page-content" aria-orientation="vertical">
+
+            <!-- MDC-WEB -->
+            <a href="http://mdc-web.tomellericcardo.it" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">extension</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">mdc-web</span>
+                    <span class="mdc-list-item__secondary-text">A sample web-app made with MDC for web</span>
+                </span>
+            </a>
+
+            <!-- BIBLIOTECA -->
+            <a href="https://biblio.tomellericcardo.it" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">book</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Biblioteca</span>
+                    <span class="mdc-list-item__secondary-text">Sistema bibliotecario domestico</span>
+                </span>
+            </a>
+
+            <!-- LEESTA -->
+            <a href="https://leesta.tomellericcardo.it" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">list_alt</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Leesta</span>
+                    <span class="mdc-list-item__secondary-text">Lista della spesa virtuale e condivisa</span>
+                </span>
+            </a>
+
+            <!-- SAFECHAT -->
+            <a href="https://safechat.pythonanywhere.com" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">lock</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">SafeChat</span>
+                    <span class="mdc-list-item__secondary-text">A simple and safe python-based chat application</span>
+                </span>
+            </a>
+
+            <!-- PIZERO -->
+            <a href="https://github.com/tomellericcardo/PiZero" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">linked_camera</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">PiZero</span>
+                    <span class="mdc-list-item__secondary-text">Raspberry Pi Zero Wireless Camera Project</span>
+                </span>
+            </a>
+
+        </div>
+
+        <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script src="/js/home.js"></script>
+
+    </body>
+</html>
