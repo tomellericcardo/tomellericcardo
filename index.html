@@ -1,175 +1,152 @@
-﻿<!DOCTYPE html>
-<html lang="it">
+<!DOCTYPE html>
+<html lang="en">
     <head>
 
-        <title>tomellericcardo</title>
+        <title>Riccardo Tomelleri</title>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#6200ee">
+        <!-- META TAGS -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="tomellericcardo's personal site">
+        <meta name="keywords" content="Riccardo Tomelleri, tomellericcardo, projects, portfolio, curriculum">
+        <meta name="author" content="Riccardo Tomelleri">
 
-        <!-- FONTS & ICONS -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-        <!-- STYLES -->
-        <link rel="stylesheet" href="https://unpkg.com/material-components-web@0.42.1/dist/material-components-web.min.css">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/home.css">
+        <!-- FONTS, ICONS & STYLES -->
+        <script src="https://kit.fontawesome.com/b80b976a11.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="icon" href="/images/icon.png">
 
     </head>
     <body>
 
-        <!-- HEADER -->
-        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
-            <div class="mdc-top-app-bar__row">
+        <!-- BODY CONTENT -->
+        <section id="content" class="w3-row-padding">
 
-                <!-- TITLE -->
-                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-                    <i class="material-icons mdc-top-app-bar__navigation-icon">developer_mode</i>
-                    <span class="mdc-top-app-bar__title">tomellericcardo</span>
-                </section>
+            <!-- PROFILE SECTION -->
+            <section id="profile" class="w3-col l3 m4 s12 w3-row-padding">
 
-                <!-- TOOLBAR -->
-                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
-                    <span class="mdc-menu-surface--anchor">
-
-                        <i id="menu-icon" class="material-icons mdc-top-app-bar__action-item">more_vert</i>
-
-                        <!-- MENU -->
-                        <div class="mdc-menu mdc-menu-surface" tabindex="-1">
-                            <ul class="mdc-menu__items mdc-list" role="menu" aria-hidden="true">
-                                <li id="about" class="mdc-list-item" role="menuitem" tabindex="0">
-                                  About
-                                </li>
-                            </ul>
-                        </div>
-
-                    </span>
-                </section>
-
-            </div>
-        </header>
-
-        <!-- PROGETTI -->
-        <div class="mdc-list mdc-list--two-line page-content" aria-orientation="vertical">
-
-            <!-- GAME OF LIFE -->
-            <a href="https://github.com/tomellericcardo/game-of-life" class="mdc-list-item">
-                <span class="mdc-list-item__graphic">
-                    <i class="material-icons">scatter_plot</i>
-                </span>
-                <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">game-of-life</span>
-                    <span class="mdc-list-item__secondary-text">A JavaScript implementation of Conway's Game of Life</span>
-                </span>
-            </a>
-
-                <!-- HACKLUEDO -->
-                <a href="https://github.com/tomellericcardo/Hackluedo" class="mdc-list-item">
-                    <span class="mdc-list-item__graphic">
-                        <i class="material-icons">casino</i>
-                    </span>
-                    <span class="mdc-list-item__text">
-                        <span class="mdc-list-item__primary-text">Hackluedo</span>
-                        <span class="mdc-list-item__secondary-text">Pratici appunti per il gioco del mistero</span>
-                    </span>
+                <!-- PROFILE -->
+                <a href="/"  class="w3-col l12 m12 s4">
+                    <img src="/images/tomellericcardo.png">
+                </a>
+                <a href="/" class="w3-col l12 m12 s8 w3-margin-bottom">
+                    <h2>Riccardo <span class="w3-hide-large w3-hide-medium"><br></span>Tomelleri</h2>
+                    <h3 class="w3-hide-small">tomellericcardo</h3>
                 </a>
 
-            <!-- LAURARIO -->
-            <a href="https://github.com/tomellericcardo/Laurario" class="mdc-list-item">
-                <span class="mdc-list-item__graphic">
-                    <i class="material-icons">schedule</i>
-                </span>
-                <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Laurario</span>
-                    <span class="mdc-list-item__secondary-text">Orario personale delle lezioni universitarie</span>
-                </span>
-            </a>
+                <!-- CONTACTS -->
+                <section id="contacts" class="w3-col s12 w3-margin-top w3-hide-small">
+                    <table class="w3-table">
+                        <tr>
+                            <td class="w3-center"><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Verona, IT</td>
+                        </tr>
+                        <tr>
+                            <td class="w3-center"><i class="fab fa-github"></i></td>
+                            <td><a href="https://github.com/tomellericcardo" target="_blank">tomellericcardo</a></td>
+                        </tr>
+                        <tr>
+                            <td class="w3-center"><i class="fab fa-linkedin"></i></i></td>
+                            <td><a href="https://www.linkedin.com/in/riccardo-tomelleri/" target="_blank">riccardo-tomelleri</a></td>
+                        </tr>
+                        <tr>
+                            <td class="w3-center"><i class="fas fa-envelope"></i></td>
+                            <td><a href="mailto:tomelleri.riccardo@gmail.com">tomelleri.riccardo<wbr>@gmail.com</a></td>
+                        </tr>
+                    </table>
+                </section>
 
-            <!-- SAFECHAT -->
-            <a href="https://github.com/tomellericcardo/SafeChat" class="mdc-list-item">
-                <span class="mdc-list-item__graphic">
-                    <i class="material-icons">lock</i>
-                </span>
-                <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">SafeChat</span>
-                    <span class="mdc-list-item__secondary-text">A simple and safe python-based chat application</span>
-                </span>
-            </a>
+            </section>
 
-            <!-- PIZERO -->
-            <a href="https://github.com/tomellericcardo/PiZero" class="mdc-list-item">
-                <span class="mdc-list-item__graphic">
-                    <i class="material-icons">linked_camera</i>
-                </span>
-                <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">PiZero</span>
-                    <span class="mdc-list-item__secondary-text">Raspberry Pi Zero Wireless Camera Project</span>
-                </span>
-            </a>
+            <!-- MAIN SECTION -->
+            <section id="main" class="w3-col l9 m8 s12">
 
-            <!-- BIBLIOTECA -->
-            <a href="https://github.com/tomellericcardo/Biblioteca" class="mdc-list-item">
-                <span class="mdc-list-item__graphic">
-                    <i class="material-icons">book</i>
-                </span>
-                <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Biblioteca</span>
-                    <span class="mdc-list-item__secondary-text">Sistema bibliotecario domestico</span>
-                </span>
-            </a>
+                <!-- MENU -->
+                <menu class="w3-container w3-margin-top w3-margin-bottom">
+                    <a href="/" class="w3-margin-right">~/</a>
+                    <a href="https://github.com/tomellericcardo" target="_blank" class="w3-margin-right">projects</a>
+                    <a href="/contacts">contacts</a>
+                </menu>
 
-            <!-- ASSEMBLY EXERCISES -->
-            <a href="https://github.com/tomellericcardo/AssemblyExercises" class="mdc-list-item">
-                <span class="mdc-list-item__graphic">
-                    <i class="material-icons">code</i>
-                </span>
-                <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">AssemblyExercises</span>
-                    <span class="mdc-list-item__secondary-text">Some assembly programs</span>
-                </span>
-            </a>
+                <!-- ABOUT -->
+                <h1>About me</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
 
-            <!-- TERMINAL GAMES -->
-            <a href="https://github.com/tomellericcardo/terminal-games" class="mdc-list-item">
-                <span class="mdc-list-item__graphic">
-                    <i class="material-icons">videogame_asset</i>
-                </span>
-                <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">terminal-games</span>
-                    <span class="mdc-list-item__secondary-text">Two command line games written in C</span>
-                </span>
-            </a>
+                <!-- PROJECTS -->
+                <h1>Projects</h1>
+                <section id="projects" class="w3-row">
+                    <section class="w3-col l8 m12 s12">
+                        <table class="w3-table">
+                            <tr>
+                                <td class="w3-center">
+                                    <i class="fas fa-key"></i>
+                                </td>
+                                <td>
+                                    <a href="https://github.com/tomellericcardo/cattive-portal" target="_blank">cattive-portal</a>
+                                    <br>A RaspberryPi-based evil captive portal
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w3-center">
+                                    <i class="fas fa-clock"></i>
+                                </td>
+                                <td>
+                                    <a href="https://github.com/tomellericcardo/clook" target="_blank">clook</a>
+                                    <br>Clook is a simple timer manager to visualize the flow of time
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w3-center">
+                                    <i class="fas fa-sort-amount-up"></i>
+                                </td>
+                                <td>
+                                    <a href="https://github.com/tomellericcardo/WikipediaWordList" target="_blank">WikipediaWordList</a>
+                                    <br>This simple tool creates a sorted list of most common words out of a set of pages randomly picked from Wikipedia.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w3-center">
+                                    <i class="fas fa-user-circle"></i>
+                                </td>
+                                <td>
+                                    <a href="https://github.com/tomellericcardo/effigie" target="_blank">effigie</a>
+                                    <br>A seedable avatar generator inspired by GitHub's Identicons
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w3-center">
+                                    <i class="fas fa-atom"></i>
+                                </td>
+                                <td>
+                                    <a href="https://github.com/tomellericcardo/game-of-life" target="_blank">game-of-life</a>
+                                    <br>A JavaScript implementation of Conway's cellular automaton
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <a href="https://github.com/tomellericcardo" target="_blank">More ...</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>
 
-            <!-- LEESTA -->
-            <a href="https://github.com/tomellericcardo/leesta" class="mdc-list-item">
-                <span class="mdc-list-item__graphic">
-                    <i class="material-icons">list_alt</i>
-                </span>
-                <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">leesta</span>
-                    <span class="mdc-list-item__secondary-text">Lista della spesa virtuale e condivisa</span>
-                </span>
-            </a>
+            </section>
 
-            <!-- MDC-WEB -->
-            <a href="https://github.com/tomellericcardo/mdc-web" class="mdc-list-item">
-                <span class="mdc-list-item__graphic">
-                    <i class="material-icons">extension</i>
-                </span>
-                <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">mdc-web</span>
-                    <span class="mdc-list-item__secondary-text">A sample web-app made with MDC for web</span>
-                </span>
-            </a>
+        </section>
 
-        </div>
-
-        <!-- SCRIPTS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://unpkg.com/material-components-web@0.42.1/dist/material-components-web.min.js"></script>
-        <script src="/js/home.js"></script>
+        <!-- FOOTER -->
+        <footer class="w3-container w3-margin-bottom w3-center">
+            Copyright &copy; 2020 Riccardo Tomelleri
+        </footer>
 
     </body>
 </html>

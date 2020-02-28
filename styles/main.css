@@ -1,0 +1,72 @@
+/* BODY */
+html, body {min-height: 100vh;}
+body {
+    padding: 24px 4px 0 4px!important;
+    font-family: 'Roboto Mono';
+}
+
+/* HEADINGS */
+h1, h2, h3 {font-weight: 600;}
+h1 {font-size: 30px;}
+h2 {font-size: 26px;}
+h3 {font-size: 22px;}
+
+/* LINKS */
+a:link, a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0072d0;
+}
+a:hover, a:active {
+    text-decoration: none;
+    font-weight: bold;
+    color: #b002dc;
+}
+
+/* BODY CONTENT */
+#content {min-height: calc(100vh - 65px);}
+
+/* PROFILE */
+#profile img {
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#profile h2 {
+    margin: 0;
+    color: #2d2d2d;
+}
+#profile h3 {
+    margin: 0;
+    font-weight: 400;
+    color: #424242;
+}
+
+/* CONTACTS */
+#contacts {font-size: 13px;}
+#main #contacts {font-size: 15px;}
+#contacts td {padding: 3px;}
+#contacts a {font-weight: normal;}
+#contacts i {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* MAIN SECTION */
+#main {padding: 0 10px 50px 20px;}
+
+/* PROJECTS SECTION */
+#projects i {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* FOOTER */
+footer {
+    height: 20px;
+    font-size: 12px;
+    color: #424242;
+}
