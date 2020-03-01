@@ -17,10 +17,18 @@ a:link, a:visited {
     font-weight: bold;
     color: #0072d0;
 }
-a:hover, a:active {
+a:hover, a:active, a.current {
     text-decoration: none;
     font-weight: bold;
     color: #b002dc;
+}
+
+/* TABLES */
+td.icon {width: 25px;}
+#skills i, #projects i {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #424242;
 }
 
 /* BODY CONTENT */
@@ -56,13 +64,6 @@ a:hover, a:active {
 
 /* MAIN SECTION */
 #main {padding: 0 10px 50px 20px;}
-
-/* PROJECTS SECTION */
-#projects i {
-    margin-top: 5px;
-    font-size: 18px;
-    color: #424242;
-}
 
 /* FOOTER */
 footer {
